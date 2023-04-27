@@ -15,10 +15,6 @@ export default function SignInScreen() {
       }}
     >
       <Text>Sign In Screen</Text>
-      <Button
-        onPress={() => navigation.navigate("NavBar")}
-        title="Go to main stack"
-      />
     </View>
   );
 }
